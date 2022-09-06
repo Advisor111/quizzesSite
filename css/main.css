@@ -1,0 +1,133 @@
+/* start variablse */
+:root{
+  --White : hsl(0, 0%, 100%);
+  --green : #83897b;
+}
+/* end variablse */
+/* start global rulse */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(../images/hand-drawn-minimal-background_23-2149005484.jpg);
+}
+.container {
+  padding: auto ;
+  margin: 0 auto;
+}
+/* start media */
+/* small */
+@media (min-width: 768px) {
+  .container {
+      width: 748px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+      width: 972px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+      width: 1180px;
+  }
+}
+/* end media */
+/* end global rulse */
+/* start section */
+section .container {
+  position: relative;
+  height: 100vh;
+}
+section .card {
+  padding: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  width: 310px;
+  background-color: var(--White);
+  color: var(--green);
+}
+.container .card .quistion {
+  margin-bottom: 15px;
+}
+.container .card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card form .radio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form .radio div {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.radio div input {
+  margin-left: 10px;
+}
+.radio div input:checked:after {
+  width: 11px;
+  height: 11px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: var(--green);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.card form .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card form .hello {
+  flex-direction: column;
+}
+.card form .table {
+  flex-direction: column;
+}
+.card form .table p {
+  margin-bottom: 20px;
+}
+.card form table {
+  border: 2px var(--green) solid;
+  border-radius: 5px;
+}
+.card form .table table td {
+  border: 2px var(--green) solid;
+  border-radius: 5px;
+}
+.card form .table table th {
+  padding: 0 15px;
+}
+.card form .table table td {
+  text-align: center;
+  padding: 3px;
+}
+form .button input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--green);
+  color: var(--White);
+  font-size: 14px;
+}
+/* end section */
