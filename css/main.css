@@ -15,6 +15,7 @@
 body {
   font-family: 'Roboto Slab', serif;
   background-image: url(../images/5585062.jpg);
+  background-size: cover;
 }
 .container {
   padding: auto ;
