@@ -226,7 +226,7 @@ function next() {
     <form action="" method="get">
       <div class="button table">
         <p style="display: none" id="ele">01:00</p>
-        <p class="timer">Your grades is 5 - ${f}, Thank you</p>
+        <p class="timer">Your grades is ${f} - 5, Thank you</p>
         <table>
           <tr>
             <th>Questions</th>
