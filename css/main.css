@@ -84,8 +84,8 @@ form .radio div {
   width: 13px;
   height: 13px;
   border-radius: 15px;
-  top: 1px;
-  left: 1px;
+  top: 0px;
+  left: 0px;
   position: relative;
   background-color: var(--green);
   content: '';
