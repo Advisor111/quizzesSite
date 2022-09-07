@@ -81,11 +81,11 @@ form .radio div {
   margin-left: 10px;
 }
 .radio div input:checked:after {
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   border-radius: 15px;
-  top: 0px;
-  left: 0px;
+  top: -0.5px;
+  left: -0.5px;
   position: relative;
   background-color: var(--green);
   content: '';
