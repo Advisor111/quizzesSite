@@ -12,24 +12,24 @@ let grades = {
 
 let quis1 = `<div class="card">
   <p class="quistion p1">
-    Which of the following sentences is correct?
+    What is the appropriate punctuation mark in the space : You have to sleep early -- to wake up early?
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">Food, my pen, walking, and a plane</label>
+        <label for="a1">( ? )</label>
         <input type="radio" name="answer" id="a1" value="False" />
       </div>
       <div>
-        <label for="a2">I wake up early and eat my breakfast</label>
+        <label for="a2">( , )</label>
         <input type="radio" name="answer" id="a2" value="Ture" />
       </div>
       <div>
-        <label for="a3">Headphone competition freight train</label>
+        <label for="a3">( : )</label>
         <input type="radio" name="answer" id="a3" value="False" />
       </div>
       <div>
-        <label for="a4">My dress bag with pillowcase</label>
+        <label for="a4">( . )</label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
@@ -42,24 +42,24 @@ let quis1 = `<div class="card">
 
 let quis2 = `<div class="card">
   <p class="quistion q2" q2>
-    Find the correct word by the following letters l t e a m a r i ?
+    Find the correct word by the following letters a v a d g e n t a ?
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">material</label>
+        <label for="a1">advantage</label>
         <input type="radio" name="answer" id="a1" value="True"/>
       </div>
       <div>
-        <label for="a2">metarail</label>
+        <label for="a2">advaentag</label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
       <div>
-        <label for="a3">malteria</label>
+        <label for="a3">edvantaga</label>
         <input type="radio" name="answer" id="a3" value="False"/>
       </div>
       <div>
-        <label for="a4">lamteria</label>
+        <label for="a4">agvantead</label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
@@ -72,16 +72,16 @@ let quis2 = `<div class="card">
 
 let quis3 = `<div class="card">
   <p class="quistion" q3>
-    Answer true or false The first letter in the sentence must be capital?
+    Answer true or false : We can put a comma at the end of the sentence ?
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">True</label>
+        <label for="a1">False</label>
         <input type="radio" name="answer" id="a1" value="True"/>
       </div>
       <div>
-        <label for="a2">False</label>
+        <label for="a2">True</label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
     </div>
@@ -94,7 +94,7 @@ let quis3 = `<div class="card">
 
 let quis4 = `<div class="card">
   <p class="quistion" q4>
-    Answer true or false The sentence must end with a question mark?
+    Answer true or false: We must eat carefully. so we don't suffocate?
   </p>
   <form action="" method="get">
     <div class="radio">
@@ -116,25 +116,25 @@ let quis4 = `<div class="card">
 
 let quis5 = `<div class="card">
   <p class="quistion" q5>
-    In the following sentence, select the subject and the predicate:
-    (Nora ate the sandwich)
+   Put the appropriate word in the blank :
+    When my father left the house, he held me all the ---------- . 
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">Subject: sanswish predicate: ate</label>
+        <label for="a1">communications</label>
         <input type="radio" name="answer" id="a1" value="False"/>
       </div>
       <div>
-        <label for="a2">Subject: ate predicate: nora</label>
+        <label for="a2">Publishing</label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
       <div>
-        <label for="a3">Subject: nora predicate: ate</label>
+        <label for="a3"> responsibility</label>
         <input type="radio" name="answer" id="a3" value="True"/>
         </div>
         <div>
-        <label for="a4">Subject: nora predicate: snadwish</label>
+        <label for="a4">Campaign</label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
