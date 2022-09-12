@@ -12,24 +12,24 @@ let grades = {
 
 let quis1 = `<div class="card">
   <p class="quistion p1">
-    What is the appropriate punctuation mark in the space : You have to sleep early -- to wake up early?
+   We never agree, so we always end in a _______ .
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">( ? )</label>
+        <label for="a1">( harness )</label>
         <input type="radio" name="answer" id="a1" value="False" />
       </div>
       <div>
-        <label for="a2">( , )</label>
+        <label for="a2">(conflict )</label>
         <input type="radio" name="answer" id="a2" value="Ture" />
       </div>
       <div>
-        <label for="a3">( : )</label>
+        <label for="a3">( connection )</label>
         <input type="radio" name="answer" id="a3" value="False" />
       </div>
       <div>
-        <label for="a4">( . )</label>
+        <label for="a4">( progress )</label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
@@ -42,24 +42,24 @@ let quis1 = `<div class="card">
 
 let quis2 = `<div class="card">
   <p class="quistion q2" q2>
-    Find the correct word by the following letters a v a d g e n t a ?
+    '' I am eating now '' is an example of ________ tense . 
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">advantage</label>
+        <label for="a1">present continuous </label>
         <input type="radio" name="answer" id="a1" value="True"/>
       </div>
       <div>
-        <label for="a2">advaentag</label>
+        <label for="a2">past </label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
       <div>
-        <label for="a3">edvantaga</label>
+        <label for="a3">present</label>
         <input type="radio" name="answer" id="a3" value="False"/>
       </div>
       <div>
-        <label for="a4">agvantead</label>
+        <label for="a4">future</label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
@@ -72,16 +72,16 @@ let quis2 = `<div class="card">
 
 let quis3 = `<div class="card">
   <p class="quistion" q3>
-    Answer true or false : We can put a comma at the end of the sentence ?
+    Answer true or false : There is only one way to structure a compare/contrast essay.
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">False</label>
+        <label for="a1">True</label>
         <input type="radio" name="answer" id="a1" value="True"/>
       </div>
       <div>
-        <label for="a2">True</label>
+        <label for="a2">False</label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
     </div>
@@ -94,7 +94,7 @@ let quis3 = `<div class="card">
 
 let quis4 = `<div class="card">
   <p class="quistion" q4>
-    Answer true or false: We must eat carefully. so we don't suffocate?
+  The foollowing sentence is written correctly : I ate a sandwich, it was very hot
   </p>
   <form action="" method="get">
     <div class="radio">
@@ -116,25 +116,24 @@ let quis4 = `<div class="card">
 
 let quis5 = `<div class="card">
   <p class="quistion" q5>
-   Put the appropriate word in the blank :
-    When my father left the house, he held me all the ---------- . 
+   Did they go to the mall last week ?  
   </p>
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">communications</label>
+        <label for="a1">no , he didn't</label>
         <input type="radio" name="answer" id="a1" value="False"/>
       </div>
       <div>
-        <label for="a2">Publishing</label>
+        <label for="a2">yes , they are </label>
         <input type="radio" name="answer" id="a2" value="False"/>
       </div>
       <div>
-        <label for="a3"> responsibility</label>
+        <label for="a3">yes, they did </label>
         <input type="radio" name="answer" id="a3" value="True"/>
         </div>
         <div>
-        <label for="a4">Campaign</label>
+        <label for="a4">no thay aren't </label>
         <input type="radio" name="answer" id="a4" value="False"/>
       </div>
     </div>
