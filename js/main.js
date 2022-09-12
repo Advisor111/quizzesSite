@@ -77,12 +77,12 @@ let quis3 = `<div class="card">
   <form action="" method="get">
     <div class="radio">
       <div>
-        <label for="a1">False</label>
-        <input type="radio" name="answer" id="a1" value="True"/>
+        <label for="a1">True</label>
+        <input type="radio" name="answer" id="a1" value="False"/>
       </div>
       <div>
-        <label for="a2">True </label>
-        <input type="radio" name="answer" id="a2" value="False"/>
+        <label for="a2">False </label>
+        <input type="radio" name="answer" id="a2" value="True"/>
       </div>
     </div>
     <div class="button">
